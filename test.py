@@ -19,4 +19,7 @@ for i in range(1, 13):
   print(df[df.subreddit == 'GlobalOffensive'].shape)
   print(df[df.subreddit == 'smashbros'].shape)
   print(df[df.subreddit == 'hearthstone'].shape)
+  print(df[df.subreddit == 'DotA2'].shape)
+  print(df[df.subreddit == 'GrandTheftAutoV'].shape)
+  print(df[df.subreddit == 'tf2'].shape)
 
