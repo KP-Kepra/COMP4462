@@ -3,7 +3,7 @@ import numpy as np
 import json
 import os
 
-for i in range(3, 8):
+for i in range(1, 2):
   raw_data = pd.read_csv("new_2018_0" + str(i) + ".csv")
 
   raw_ow_data = raw_data[raw_data.subreddit == 'Overwatch'].head(200)
