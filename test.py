@@ -26,4 +26,4 @@ for i in range(1, 13):
   print(df[df.subreddit == 'GrandTheftAutoV'].shape)
   print(df[df.subreddit == 'tf2'].shape)
 
-  df.to_csv('200_2018_{:02d}.csv'.format(i))
+  df.to_csv('200_2018_{:02d}.csv'.format(i), index=False)
