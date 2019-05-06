@@ -37,5 +37,6 @@ for i in range(1, 13):
   print(df[df.subreddit == 'tf2'].shape)
 
   new_data = pd.concat([ow_data, lol_data, pubg_data, csgo_data, smash_data, hs_data, dota_data, gta_data, tf_data])
+  print(new_data.shape)
 
   new_data.to_csv('50_2018_{:02d}.csv'.format(i), index=False)
