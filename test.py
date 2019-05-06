@@ -38,4 +38,4 @@ for i in range(1, 13):
 
   new_data = pd.concat([ow_data, lol_data, pubg_data, csgo_data, smash_data, hs_data, dota_data, gta_data, tf_data])
 
-  df.to_csv('50_2018_{:02d}.csv'.format(i), index=False)
+  new_data.to_csv('50_2018_{:02d}.csv'.format(i), index=False)
